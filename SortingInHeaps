@@ -29,7 +29,7 @@ def sorting(heap):
             elif child_1 < i and heap[child_1] > heap[par]:
                 heap[par], heap[child_1] = heap[child_1], heap[par]
                 par = child_1
-            else: break  # если замен не было – выйти из цикла
+            else: break  
     return heap
 
 
